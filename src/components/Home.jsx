@@ -52,6 +52,29 @@ const Home = () => {
           </p>
         </div>
       </div>
+
+      <div className="home4" id="brands">
+        <div>
+          <h1>Brands</h1>
+          <article>
+            <div>
+              <AiFillGoogleCircle/>
+            </div>
+            <div>
+              <AiFillInstagram/>
+            </div>
+            <div>
+              <AiFillYoutube/>
+            </div>
+            <div>
+              <AiFillAmazonCircle/>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+
     </>
   );
 };
