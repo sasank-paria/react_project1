@@ -76,7 +76,7 @@
     width:80%;
     height: 100vh;
     display: flex;
-    background-color: $secondary;
+    background-color: $primary;
     border-radius: 0 200px 200px 0;
     >div{
         width: 100%;
@@ -98,5 +98,40 @@
             font:400 1.3rem $text;
         }
     }
+}
+
+
+.home4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    // padding: 8rem;
+    >div{
+        background-color: $secondary;
+        width: 70%;
+        height: 70vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        >h1{
+            font:400 4rem $text;
+            text-decoration: underline;
+        }
+        >article{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            >div{
+                animation: imgUP 1s linear infinite alternate ;
+            }
+        }
+    }
+
 }
 
