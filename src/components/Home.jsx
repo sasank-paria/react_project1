@@ -57,16 +57,16 @@ const Home = () => {
         <div>
           <h1>Brands</h1>
           <article>
-            <div>
+            <div style={{animationDelay: "0.5s"}}>
               <AiFillGoogleCircle/>
             </div>
-            <div>
+            <div style={{animationDelay: "0.7s"}}>
               <AiFillInstagram/>
             </div>
-            <div>
+            <div style={{animationDelay: "0.9s"}}>
               <AiFillYoutube/>
             </div>
-            <div>
+            <div style={{animationDelay: "1.1s"}}>
               <AiFillAmazonCircle/>
             </div>
           </article>

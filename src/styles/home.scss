@@ -107,7 +107,7 @@
     display: flex;
     justify-content: flex-end;
     background-color: white;
-    // padding: 8rem;
+    padding: 8rem;
     >div{
         background-color: $secondary;
         width: 70%;
@@ -117,6 +117,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-radius: 200px 0 0 200px;
         >h1{
             font:400 4rem $text;
             text-decoration: underline;
@@ -127,8 +128,26 @@
             justify-content: center;
             margin: 2rem 0;
             flex-wrap: wrap;
+          
             >div{
                 animation: imgUP 1s linear infinite alternate ;
+                width: 10rem;
+                height: 10rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background-color: white;
+                margin: 1rem;
+                transition: all 0.5s;
+
+                >&:hover{
+                     filter: invert(1);
+                }
+                >svg{
+                    font-size: 5rem;
+                }
             }
         }
     }

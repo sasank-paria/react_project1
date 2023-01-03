@@ -1,0 +1,44 @@
+@import "color";
+
+footer{
+    background-color: $tirdiary;
+    height: 200px;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 2rem;
+    > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        > h1 {
+          font: 700 2rem $text;
+          color: white;
+        }
+        > p {
+          font: 500 1.2rem $text;
+        }
+    
+        > h5 {
+          font: 300 2rem $text;
+          margin: 1rem 0;
+          text-align: center;
+        }
+    
+        > div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          a {
+            margin:1rem;
+            color: white;
+            font: 900 1rem $text;
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+    
